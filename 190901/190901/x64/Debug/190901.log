@@ -1,0 +1,7 @@
+﻿  hw1.cpp
+d:\code\cpp_program\190901\190901\hw1.cpp(29): warning C4305: “初始化”: 从“double”到“float”截断
+  hw2.cpp
+  hw3.cpp
+  poke.cpp
+  正在生成代码...
+  190901.vcxproj -> D:\Code\Cpp_program\190901\x64\Debug\190901.exe
