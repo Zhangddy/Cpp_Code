@@ -13,17 +13,21 @@ class SeqList
 	void checkCapacity();
 
 public:
-	SeqList(size_t capacity = 10) :
+	SeqList(size_t size = 0, size_t capacity = 10) :
 		m_data(new T[capacity]),
-		m_size(0),
+		m_size(size),
 		m_capacity(capacity)
 	{
-
+		
 	}
 	void push_back(const T &src);
 	void pop_back();
 	int size();
 	~SeqList();
+	T& const operator[](int i)
+	{
+		return m_data[i];
+	}
 };
 
 template <class T>
@@ -73,14 +77,18 @@ SeqList<T>::~SeqList()
 
 int main()
 {
-	SeqList<int> s1;
-	s1.push_back(3);
-	s1.push_back(2);
-	s1.push_back(1);
-	s1.push_back(5);
-	s1.pop_back();
+	SeqList<int> s1(5);
 
-	cout << s1.size() << endl;
+
+	for (int i = 0; i < s1.size(); i++)
+	{
+		s1[i] = i + 1;
+	}
+	for (int i = 0; i < s1.size(); i++)
+	{
+		cout << s1[i] << endl;
+	}
+
 	system("pause");
 	return 0;
 }

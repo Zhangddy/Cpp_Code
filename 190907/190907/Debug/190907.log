@@ -1,2 +1,4 @@
 ﻿  main.cpp
+d:\code\cpp_program\190907\190907\main.cpp(27): warning C4227: 使用了记时错误: 忽略引用上的限定符
+  d:\code\cpp_program\190907\190907\main.cpp(31): note: 参见对正在编译的 类 模板 实例化 "SeqList<T>" 的引用
   190907.vcxproj -> D:\Code\Cpp_program\190907\Debug\190907.exe

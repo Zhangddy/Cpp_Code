@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\code\cpp_program\190923_杨辉三角vector\190923_杨辉三角vector\main.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\190923_杨辉三角vector\190923_杨辉三角vector\main.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\190923_杨辉三角vector\190923_杨辉三角vector\main.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+  190923_杨辉三角vector.vcxproj -> D:\Code\Cpp_program\190923_杨辉三角vector\Debug\190923_杨辉三角vector.exe
