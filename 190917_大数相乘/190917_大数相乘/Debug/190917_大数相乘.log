@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\code\cpp_program\190917_大数相乘\190917_大数相乘\main.cpp(48): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\190917_大数相乘\190917_大数相乘\main.cpp(54): warning C4018: “<”: 有符号/无符号不匹配
+  190917_大数相乘.vcxproj -> D:\Code\Cpp_program\190917_大数相乘\Debug\190917_大数相乘.exe
