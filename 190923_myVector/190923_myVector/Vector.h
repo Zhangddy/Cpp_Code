@@ -113,7 +113,7 @@ namespace Michael
 			}
 
 			Iterator it = _start;
-			_finish = _start + n;
+			Iterator _finish = _start + n;
 			//////////////////////////
 			while (it != _finish)
 			{
