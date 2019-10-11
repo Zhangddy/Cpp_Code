@@ -1,6 +1,6 @@
 #pragma once
 
-namespace zdy {
+namespace Micheal {
 
 
 template<class T>
@@ -78,7 +78,7 @@ public:
 			m_pos = m_pos->pPre;
 			return tmp;
 		}
-
+		
 		bool operator == (const iterator& i) const
 		{
 			return m_pos == i.m_pos;
@@ -90,7 +90,7 @@ public:
 		}
 	};
 
-	list(T * start, T * finish)
+	list(T* start, T* finish)
 	{
 		createHead();
 
@@ -114,19 +114,32 @@ public:
 
 	iterator insert(iterator pos, T* start, T* finish)
 	{
-		T* tmp = start;
+		T * tmp;
+		iterator tmpit = --pos;
+		pos++;
 
-		while (tmp != finish)
+		for (tmp = start; tmp != finish; tmp++)
 		{
-			pos = insert(pos, *start);
-			tmp++;
+			insert(pos, *tmp);
 		}
-		return pos;
+
+		return ++tmpit;
 	}
+
 	iterator insert(iterator pos, iterator start, iterator end)
 	{
-		//TODO
+		iterator tmp;
+		iterator tmpit = --pos;
+		pos++;
+
+		for (tmp = start; tmp != end; tmp++)
+		{
+			insert(pos, *tmp);
+		}
+
+		return ++tmpit;
 	}
+
 	iterator end()
 	{
 		return m_head;
