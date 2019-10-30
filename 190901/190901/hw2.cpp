@@ -38,7 +38,7 @@ public:
 	//TODO
 	int operator - (const Date & d) const;
 
-	Date operator ++ ();//×ó++
+	Date& operator ++ ();//×ó++
 	Date operator ++ (int);//ÓÒ++
 	Date operator -- ();//×ó--
 	Date operator -- (int);//ÓÒ--
@@ -54,7 +54,7 @@ public:
 	friend ostream& operator << (ostream & os, const  Date & d);
 };
 
-Date Date::operator ++ ()
+Date& Date::operator ++ ()
 {
 	*this = *this + 1;
 	return *this;
