@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\code\cpp_program\191017_test\191017_test\test.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\191017_test\191017_test\test.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\191017_test\191017_test\test.cpp(63): warning C4101: “i”: 未引用的局部变量
+  191017_Test.vcxproj -> D:\Code\Cpp_program\191017_Test\Debug\191017_Test.exe
