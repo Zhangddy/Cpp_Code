@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\code\cpp_program\191110_字符串提取数字\191110_字符串提取数字\test.cpp(14): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\191110_字符串提取数字\191110_字符串提取数字\test.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+  191110_字符串提取数字.vcxproj -> D:\Code\Cpp_program\191110_字符串提取数字\Debug\191110_字符串提取数字.exe
