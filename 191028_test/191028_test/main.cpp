@@ -7,42 +7,34 @@ using namespace std;
 
 int main()
 {
-	int n = 0;
-	int sn;
-	cin >> n >> sn;
-	string s;
-	int flag = 0;
-	if (n == 0)
+	while (1)
 	{
-		cout << 0 << endl;
-		return 0;
-	}
-	int i = n;
-	if (i  < 0)
-	{
-		flag = 1;
-		i *= -1;
-	}
-	for (; i; i /= sn)
-	{
-		if (i % sn > 9)
+		string s1;
+		string s2;
+		cin >> s1;
+		s2 += s1[0];
+
+		for (size_t i = 1; i < s1.size(); ++i)
 		{
-			s.push_back('A' + i % sn - 10);
+			int flag = 0;
+			for (size_t j = 0; j < i; ++j)
+			{
+				if (s1[i] == s1[j])
+				{
+					flag = 1;
+					break;
+				}
+			}
+			if (flag == 0)
+			{
+				s2 += s1[i];
+			}
 		}
-		else
-		{
-			s.push_back('0' + i % sn);
-		}
-	}
-	for (size_t i = 0,j = s.size() - 1; i < s.size() / 2; ++i, --j)
-	{
-		swap(s[i], s[j]);
+
+		cout << s2 << endl;
 	}
 
-	if (flag == 0)
-		cout << s << endl;
-	else
-		cout << "-" + s << endl;
+
 	system("pause");
 	return 0;
 }

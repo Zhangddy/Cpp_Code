@@ -1,39 +1,41 @@
 #include <iostream>
 #include <cstdlib>
-#include <string>
+#include <vector>
 using namespace std;
 
+class Finder {
+public:
+	int findElement(vector<int> A, int n, int x) {
+		// write code here
+		if (A[0] < x)
+		{
+			// ╢ссрур
+			for (size_t i = A.size(); i > 0; --i)
+			{
+				if (x == A[i])
+				{
+					return i;
+				}
+			}
 
+
+		}
+		else
+		{
+			for (size_t i = 0; i < A.size(); ++i)
+			{
+				if (x == A[i])
+				{
+					return i;
+				}
+			}
+		}
+	}
+};
 
 int main2()
 {
-	string s1("");
-	string s2("");
-
-	getline(cin, s1);
-
-	int front;
-	int back;
-
 	
-	while (s1.find(' ') != s1.npos)
-	{
-		back = s1.size();
-		front = s1.rfind(' ');
-		s2.append(s1, front, back);
-		s1.resize(front);
-	}
-	s2 += ' ';
-	s2.append(s1);
-
-	int size = s2.size();
-	for (size_t i = 0; i < s2.size() - 1; ++i)
-	{
-		s2[i] = s2[i + 1];
-	}
-	s2.resize(size - 1);
-	cout << s2 << endl;
-
 	system("pause");
 	return 0;
 }
