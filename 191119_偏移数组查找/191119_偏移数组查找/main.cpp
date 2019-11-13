@@ -6,10 +6,10 @@ using namespace std;
 
 int main()
 {
-	// vector<int> v = { 8, 9, 1, 2, 3 ,4, 5, 6, 7};
+	// test 1: vector<int> v = { 8, 9, 1, 2, 3 ,4, 5, 6, 7};
 	vector<int> v = { 4, 5, 6, 7, 8, 9, 1, 2, 3 };
 
-	// 先找最小的数
+	// 先找最小的数, 及偏移后的起始位置
 	int left = 0, right = v.size() - 1;
 	int mid = right / 2;
 
@@ -33,9 +33,14 @@ int main()
 		mid = (right + left) / 2 ;
 
 	}
+	// 得到的 mid 就是新的起点
+	
 	int val;
 	cin >> val;
 
+	// 之后可以 mid 为起点, size + mid 为结束
+	// 在上面这个区间进行查找
+	// 查找会越界, 则取余 size 即可
 	
 	left = mid;
 	right = v.size() + mid - 1;
@@ -58,8 +63,13 @@ int main()
 		}
 	}
 	mid %= v.size();
-	
-	cout << v[mid] << endl;
+	if (v[mid] != val)
+	{
+		cout << "can't find \n" << endl;
+		system("pause");
+		return 0;
+	}
+	cout << "the position is: "<< mid << endl;
 	system("pause");
 	return 0;
 }
