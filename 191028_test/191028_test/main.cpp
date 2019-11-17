@@ -28,7 +28,7 @@ int func(int m, int n)
 	return func(m - 1, n) + func(n, m - 1);
 }
 
-int main()
+int main3()
 {
 	cout << func(2, 2);
 	system("pause");
