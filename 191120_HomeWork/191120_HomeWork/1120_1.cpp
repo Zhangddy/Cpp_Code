@@ -5,7 +5,7 @@ using namespace std;
 
 
 
-int main()
+int test1()
 {
 
 	int year, month, day;
