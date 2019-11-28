@@ -14,7 +14,7 @@ int func(int bottle)
 	}
 	return drink;
 }
-int main()
+int main_1()
 {
 	int num;
 
