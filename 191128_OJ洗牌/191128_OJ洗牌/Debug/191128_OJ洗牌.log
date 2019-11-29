@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\code\cpp_program\191128_oj洗牌\191128_oj洗牌\test.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\191128_oj洗牌\191128_oj洗牌\test.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\191128_oj洗牌\191128_oj洗牌\test.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+  191128_OJ洗牌.vcxproj -> D:\Code\Cpp_program\191128_OJ洗牌\Debug\191128_OJ洗牌.exe
