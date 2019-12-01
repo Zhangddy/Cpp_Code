@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\code\cpp_program\191201_oj出现次数超过一半\191201_oj出现次数超过一半\test.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\cpp_program\191201_oj出现次数超过一半\191201_oj出现次数超过一半\test.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+  191201_OJ出现次数超过一半.vcxproj -> D:\Code\Cpp_program\191201_OJ出现次数超过一半\Debug\191201_OJ出现次数超过一半.exe
