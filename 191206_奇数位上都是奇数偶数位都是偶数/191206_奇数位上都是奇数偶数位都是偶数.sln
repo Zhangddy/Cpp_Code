@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "191206_奇数位上都是奇数偶数位都是偶数", "191206_奇数位上都是奇数偶数位都是偶数\191206_奇数位上都是奇数偶数位都是偶数.vcxproj", "{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}.Debug|x64.ActiveCfg = Debug|x64
+		{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}.Debug|x64.Build.0 = Debug|x64
+		{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}.Debug|x86.ActiveCfg = Debug|Win32
+		{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}.Debug|x86.Build.0 = Debug|Win32
+		{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}.Release|x64.ActiveCfg = Release|x64
+		{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}.Release|x64.Build.0 = Release|x64
+		{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}.Release|x86.ActiveCfg = Release|Win32
+		{46B99E67-1361-41E4-B7E3-FE30D0F8C6B3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F08C6CA8-9351-4C3F-AFEA-014C19897E18}
+	EndGlobalSection
+EndGlobal

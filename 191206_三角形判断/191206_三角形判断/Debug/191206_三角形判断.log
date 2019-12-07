@@ -1,0 +1,39 @@
+﻿  test.cpp
+d:\vs\vc\tools\msvc\14.16.27023\include\xtree(788): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+  d:\vs\vc\tools\msvc\14.16.27023\include\xtree(1032): note: 参见对正在编译的 类 模板 实例化 "std::_Tree_comp_alloc<_Traits>" 的引用
+          with
+          [
+              _Traits=std::_Tset_traits<int,std::greater<int> (void),std::allocator<int>,true>
+          ]
+  d:\vs\vc\tools\msvc\14.16.27023\include\set(267): note: 参见对正在编译的 类 模板 实例化 "std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>" 的引用
+          with
+          [
+              _Kty=int,
+              _Pr=std::greater<int> (void),
+              _Alloc=std::allocator<int>
+          ]
+  d:\code\cpp_program\191206_三角形判断\191206_三角形判断\test.cpp(15): note: 参见对正在编译的 类 模板 实例化 "std::multiset<int,std::greater<int> (void),std::allocator<_Kty>>" 的引用
+          with
+          [
+              _Kty=int
+          ]
+d:\vs\vc\tools\msvc\14.16.27023\include\xtree(797): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\xtree(998): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\xutility(316): error C2207: “std::_Compressed_pair<_Ty1,_Ty2,false>::_Myval1”: 类模板的成员无法获取函数类型
+  d:\vs\vc\tools\msvc\14.16.27023\include\xtree(1025): note: 参见对正在编译的 类 模板 实例化 "std::_Compressed_pair<std::greater<int> (void),std::_Compressed_pair<std::allocator<std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>>,std::_Tree_val<std::_Tree_simple_types<_Ty>>,true>,false>" 的引用
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+d:\vs\vc\tools\msvc\14.16.27023\include\xutility(341): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\xtree(1083): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\xtree(1088): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\xtree(1289): error C2091: 函数返回函数
+d:\vs\vc\tools\msvc\14.16.27023\include\xtree(1294): error C2091: 函数返回函数
+d:\vs\vc\tools\msvc\14.16.27023\include\set(312): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\set(317): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\set(330): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\set(346): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\set(395): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
+d:\vs\vc\tools\msvc\14.16.27023\include\set(409): warning C4180: 应用到函数类型的限定符没有意义；已将其忽略
