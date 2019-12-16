@@ -32,11 +32,11 @@ int test4()
 	return 0;
 }
 
-//使用虚函数编写程序求球体和圆柱体的体积及表面积。
-//由于球体和圆柱体都可以看作由圆继承而来，所以可以定义圆类Circle作为基类。
-//在Circle类中定义一个数据成员radius和两个虚函数area()和volume()。
-//由Circle类派生Sphere类和Column类。
-//在派生类中对虚函数area()和volume()重新定义，分别求球体和圆柱体的体积及表面积。
+// 使用虚函数编写程序求球体和圆柱体的体积及表面积。
+// 由于球体和圆柱体都可以看作由圆继承而来，所以可以定义圆类Circle作为基类。
+// 在Circle类中定义一个数据成员radius和两个虚函数area()和volume()。
+// 由Circle类派生Sphere类和Column类。
+// 在派生类中对虚函数area()和volume()重新定义，分别求球体和圆柱体的体积及表面积。
 
 class Circle
 {

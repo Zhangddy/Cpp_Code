@@ -9,7 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#define PAI 3.14
+#define PI 3.14
 
 using namespace std;
 
@@ -57,22 +57,22 @@ public:
 	CalculatePrice(double radius)
 	{
 		m_radius = radius;
-		m_fencePrice = PAI * 2 * (m_radius + 3) * m_fenceCost;
-		m_corridorPrice = (PAI * (m_radius + 3) * (m_radius + 3) - PAI * m_radius * m_radius) * m_corridorCost;
+		m_fencePrice = PI * 2 * (m_radius + 3) * m_fenceCost;
+		m_corridorPrice = (PI * (m_radius + 3) * (m_radius + 3) - PI * m_radius * m_radius) * m_corridorCost;
 	}
 
 	void PrintPrice()
-	{
+	{	 
 		cout << "过道价格: " << m_corridorPrice << "\n栅栏价格: " << m_fencePrice << endl;
 	}
 };
 
 int main2()
 {
-	//double r;
-	//cin >> r;
-	//CalculatePrice c(r);
-	//c.PrintPrice();
+	double r;
+	cin >> r;
+	CalculatePrice c(r);
+	c.PrintPrice();
 	
 	Student s1(1, "张新栋", 3);
 	Student s2(2, "萝莉人", 9);

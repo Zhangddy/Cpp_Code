@@ -10,7 +10,7 @@ using namespace std;
 // 4.改用open函数创建文件输出流，并选择适当的文件操作方式。
 // 5.在原内容的后面追加若干行新内容。
 
-int main()
+int main5()
 {
 	// 1
 	ofstream fout("D:\\CppExp.txt");

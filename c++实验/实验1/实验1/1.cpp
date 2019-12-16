@@ -147,13 +147,16 @@ public:
 };
 
 
-void test1()
-{
+int main1()
+{ 
+
 	Stu s;
 	s.PutGrade();
 	s.PrintScore();
 	s.ScoreSort();
 	s.FindScore();
+
+	return 0;
 }
 
 
