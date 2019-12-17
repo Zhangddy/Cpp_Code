@@ -66,7 +66,7 @@ public:
 		cout << "过道价格: " << m_corridorPrice << "\n栅栏价格: " << m_fencePrice << endl;
 	}
 };
-
+ 
 int main2()
 {
 	double r;
