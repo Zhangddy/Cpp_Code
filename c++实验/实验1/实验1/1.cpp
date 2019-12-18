@@ -54,7 +54,7 @@ class Stu
 	vector<string> stuName;
 	vector<vector<double>> stuScore;
 	double stuTotalScore[M] = { 0 };
-	 
+	  
 public:
 	void PutGrade()
 	{
