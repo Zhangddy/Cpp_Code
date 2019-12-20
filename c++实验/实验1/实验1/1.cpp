@@ -56,12 +56,12 @@ class Stu
 	double stuTotalScore[M] = { 0 };
 	   
 public:
-	void PutGrade()
-	{
+	void PutGrade() 
+	{ 
 		cout << "ÇëÊäÈë" << M << "¸öÃû×Ö: \n";
 		for (int i = 0; i < M; ++i)
 		{
-			string s;
+			string s; 
 			cin >> s;
 			stuName.push_back(s);
 		}
@@ -73,13 +73,13 @@ public:
 			{
 				double s;
 				cin >> s;
-				v.push_back(s);
+				v.push_back(s); 
 				stuTotalScore[i] += v[j];
 			}
 			stuScore.push_back(v);
 		}
 	}
-
+	 
 	void PrintScore()
 	{
 		system("cls");
@@ -92,7 +92,7 @@ public:
 			}
 			cout << stuTotalScore[i] << '\n';
 		}
-	}
+	} 
 
 	void FindScore() 
 	{

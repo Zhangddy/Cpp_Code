@@ -53,7 +53,7 @@ public:
 	{
 		cout << "Office::~Office()" << endl;
 	}
-}; 
+};  
 int main3()
 {
 	House h;
