@@ -46,9 +46,9 @@ protected:
 	size_t TelephoneNo;
 public:
 	Office():Building()
-	{
+	{ 
 		cout << "Office::Office()" << endl;
-	}
+	} 
 	~Office()
 	{
 		cout << "Office::~Office()" << endl;
