@@ -20,7 +20,7 @@ int main()
 		int Max = v[0];
 		int f = v[0];
 		
-		for (size_t i = 1; i < N; i++)
+		for (int i = 1; i < N; i++)
 		{
 			f = max(f + v[i], v[i]);
 			if (f > Max)
