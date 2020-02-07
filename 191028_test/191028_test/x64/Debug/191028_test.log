@@ -1,4 +1,3 @@
-﻿  main.cpp
-  test.cpp
-  正在生成代码...
+﻿  5.cpp
+d:\code\cpp_program\191028_test\191028_test\5.cpp(73): warning C4172: 返回局部变量或临时变量的地址: val
   191028_test.vcxproj -> D:\Code\Cpp_program\191028_test\x64\Debug\191028_test.exe

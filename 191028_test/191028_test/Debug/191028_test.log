@@ -1,2 +1,4 @@
 ﻿  5.cpp
+d:\code\cpp_program\191028_test\191028_test\5.cpp(82): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“int *”
+d:\code\cpp_program\191028_test\191028_test\5.cpp(73): warning C4172: 返回局部变量或临时变量的地址: val
   191028_test.vcxproj -> D:\Code\Cpp_program\191028_test\Debug\191028_test.exe
