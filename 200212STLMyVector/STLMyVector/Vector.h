@@ -77,7 +77,7 @@ public:
 		finish = start;
 		while (first != last)
 		{
-			*finish = *(Iterator)first;
+			*finish = *first;
 			++first;
 			++finish;
 		}
@@ -86,29 +86,6 @@ public:
 	}
 
 
-	//Vector(int* first, int* last)
-	//{
-	//	// 求[first, last)区间中元素的个数
-	//	int* it = first;
-	//	size_t n = 0;
-	//	//distance(first, last, n);
-	//	while (it != last)
-	//	{
-	//		n++;
-	//		++it;
-	//	}
-
-	//	start = new T[n];
-	//	finish = start;
-	//	while (first != last)
-	//	{
-	//		*finish = *first;
-	//		++first;
-	//		++finish;
-	//	}
-
-	//	endofstorage = finish;
-	//}
 
 	// 赋值号重载
 	// Vector<T>& operator= (Vector<T> v)

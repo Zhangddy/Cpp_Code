@@ -1,13 +1,12 @@
 ﻿  main.cpp
-d:\code\cpp_program\stlmyvector\stlmyvector\vector.h(68): error C2100: 非法的间接寻址
-  d:\code\cpp_program\stlmyvector\stlmyvector\vector.h(309): note: 参见对正在编译的函数 模板 实例化“dongyu::Vector<int>::Vector<int>(Iterator,Iterator)”的引用
+d:\code\cpp_program\200212stlmyvector\stlmyvector\vector.h(80): error C2100: 非法的间接寻址
+  d:\code\cpp_program\200212stlmyvector\stlmyvector\vector.h(308): note: 参见对正在编译的函数 模板 实例化“dongyu::Vector<int>::Vector<int>(Iterator,Iterator)”的引用
           with
           [
               Iterator=int
           ]
-  d:\code\cpp_program\stlmyvector\stlmyvector\vector.h(309): note: 参见对正在编译的函数 模板 实例化“dongyu::Vector<int>::Vector<int>(Iterator,Iterator)”的引用
+  d:\code\cpp_program\200212stlmyvector\stlmyvector\vector.h(308): note: 参见对正在编译的函数 模板 实例化“dongyu::Vector<int>::Vector<int>(Iterator,Iterator)”的引用
           with
           [
               Iterator=int
           ]
-d:\code\cpp_program\stlmyvector\stlmyvector\vector.h(81): error C2100: 非法的间接寻址
