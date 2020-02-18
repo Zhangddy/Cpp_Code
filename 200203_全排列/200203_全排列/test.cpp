@@ -1,6 +1,7 @@
 class Solution {
 public:
-	//枚举法, 借用通过位运算
+	// 这不是真正的全排列, 而是所有选择某个数的情况
+	// 枚举法, 借用通过位运算
 	vector<vector<int>> subsets(vector<int>& nums) {
 	int size = nums.size();
 	int n = 1 << size;
